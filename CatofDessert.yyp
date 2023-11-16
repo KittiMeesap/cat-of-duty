@@ -40,6 +40,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sSpawner","path":"sprites/sSpawner/sSpawner.yy",},},
     {"id":{"name":"sTileWall","path":"sprites/sTileWall/sTileWall.yy",},},
+    {"id":{"name":"sShootFlash","path":"sprites/sShootFlash/sShootFlash.yy",},},
     {"id":{"name":"sEnemyHealth","path":"sprites/sEnemyHealth/sEnemyHealth.yy",},},
     {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},
     {"id":{"name":"sDamagePlayer","path":"sprites/sDamagePlayer/sDamagePlayer.yy",},},

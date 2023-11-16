@@ -28,7 +28,7 @@ global.WeaponList = {
 	sAR,
 	sprite_get_bbox_right(sAR) - sprite_get_xoffset(sAR),
 	oARBullet,
-	3,
+	6,
 	1,
 	0,
 	sARPickUp

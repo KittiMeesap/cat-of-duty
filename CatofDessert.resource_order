@@ -20,6 +20,7 @@
     {"name":"oDamagePlayerTest","order":8,"path":"objects/oDamagePlayerTest/oDamagePlayerTest.yy",},
     {"name":"sSpawner","order":13,"path":"sprites/sSpawner/sSpawner.yy",},
     {"name":"sTileWall","order":4,"path":"sprites/sTileWall/sTileWall.yy",},
+    {"name":"sShootFlash","order":10,"path":"sprites/sShootFlash/sShootFlash.yy",},
     {"name":"sEnemyHealth","order":12,"path":"sprites/sEnemyHealth/sEnemyHealth.yy",},
     {"name":"sDamagePlayer","order":9,"path":"sprites/sDamagePlayer/sDamagePlayer.yy",},
     {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},

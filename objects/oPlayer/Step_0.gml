@@ -107,6 +107,10 @@ if shootKey && shootTimer <= 0
 	
 	var _spread = weapon.spread;
 	var _spreadDiv = _spread / max( weapon.bulletNum-1,1);
+	var _weaponTipX = x + _xOffset;
+	var _weaponTipY = centerY + _yOffset;
+	
+	create_animated_vfx(sShootFlash,_weaponTipX,_weaponTipY,depth-10,aimDir);
 	
 	for (var i = 0; i < weapon.bulletNum; i++)
 	{

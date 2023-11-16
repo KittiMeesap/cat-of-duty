@@ -14,7 +14,11 @@ if screen_pause() {exit;};
 
 	if hitConfirm == true && enemyDestroy = true {destroy = true};
 	
-	if destroy == true {instance_destroy();};
+	if destroy == true 
+	{
+		create_animated_vfx(sShootBurst,x,y,depth-50);
+		instance_destroy();
+	}
 
 	if place_meeting(x,y, oSoildWall) {destroy = true;};
 

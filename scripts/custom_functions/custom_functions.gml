@@ -49,11 +49,12 @@ function screen_shake(_amont = 4 )
 		yShakeAmont = _amont;
 	}
 }
-function create_animated_vfx(_sprite,_x,_y,_depth)
+function create_animated_vfx(_sprite,_x,_y,_depth,_rot = 0)
 {
 	with(instance_create_depth(_x,_y,_depth,oAnimatedVFX))
 	{
 		sprite_index = _sprite;
+		image_angle = _rot;
 	}
 }
 
@@ -137,6 +138,11 @@ function get_damaged( _damageObj, _iframes = false)
 						_hitConfirm = true;
 					
 						_inst.hitConfirm = true;
+						
+						if _inst.hitVFX == true
+						{
+						create_animated_vfx(sShootBurst,_inst.x,_inst.y,_inst.depth-50);
+						}
 					}
 			}
 			

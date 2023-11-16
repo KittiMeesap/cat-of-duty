@@ -1,4 +1,7 @@
 event_inherited();
+
+hitVFX = true;
+
 dir = 0;
 spd = 5;
 xspd = 0;
