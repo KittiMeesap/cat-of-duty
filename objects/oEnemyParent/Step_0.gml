@@ -11,7 +11,7 @@ get_damaged(oDamageEnemy);
 			instance_create_depth(x,y,depth,oHeart);
 		}
 		
-		instance_create_depth(x,y,depth,oSmallBoom);
+		instance_create_depth(x,y,depth,oAnimatedVFX);
 		
 		instance_destroy();
 	}
