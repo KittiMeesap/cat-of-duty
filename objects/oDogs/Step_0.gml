@@ -1,5 +1,7 @@
+//pause self
+if screen_pause() {exit;};
 
-
+//coed coommands
 var _wallcollisions = true;
 var _getDamage = true;
 	

@@ -6,7 +6,7 @@ if createdDamageObjects == false
 		damge = other.damage;
 		mask_index = other.sprite_index;
 		image_xscale = other.image_xscale;
-		image_yscale = other.image_yscale;
+		image_yscale = other.image_yscaley;
 	}
 	
 	createdDamageObjects = true;

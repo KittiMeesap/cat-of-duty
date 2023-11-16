@@ -4,6 +4,23 @@ upKey = global.upKey;
 downKey = global.downKey;
 shootKey = global.shootKey;
 swapKeyPressed = global.swapKeyPressed;
+starKeyPressed = global.stertKeyPressed;
+
+
+//pause menu
+if starKeyPressed
+{
+	if !instance_exists(oScreenPause)
+	{
+		instance_create_depth(0, 0, 0, oScreenPause);
+	}else {
+		instance_destroy(oScreenPause);
+	}
+}
+
+
+//pause self
+if screen_pause() {exit;};
 
 //Control
 #region
@@ -97,8 +114,6 @@ if shootKey && shootTimer <= 0
 if hp <= 0
 {
 	instance_create_depth(0,0,-10000,oGameOverScreen);
-	
-	instance_create_depth(x,y,depth,oSmallBoom);
 	
 	instance_destroy();
 }
