@@ -1,4 +1,6 @@
 function draw_my_weapon()
+
+
 {
 	var _xOffset = lengthdir_x(weaponOffsetDist, aimDir);
 	var _yOffset = lengthdir_y(weaponOffsetDist, aimDir);
@@ -12,6 +14,25 @@ function draw_my_weapon()
 	}
 	draw_sprite_ext(weapon.sprite, 0 ,x + _xOffset, centerY + _yOffset, 1 ,_weaponYsc1 , aimDir ,c_white,image_alpha)
 }
+
+//vfx
+function screen_pause()
+  {
+	  
+	//pause self
+    if instance_exists(oScreenPause)
+    {
+	   image_speed = 0;
+	   
+	   return true; 
+	   
+    } else {
+	   image_speed = 1;
+	   
+	   return false;
+    } 
+	
+  }
 
 function get_damaged_create(_hp = 10, _iframes = false)
 {
