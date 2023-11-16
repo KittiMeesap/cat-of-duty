@@ -4,6 +4,23 @@ upKey = global.upKey;
 downKey = global.downKey;
 shootKey = global.shootKey;
 swapKeyPressed = global.swapKeyPressed;
+starKeyPressed = global.stertKeyPressed;
+
+
+//pause menu
+if starKeyPressed
+{
+	if !instance_exists(oPauseMenu)
+	{
+		instance_create_depth(0, 0, 0, oPauseMenu);
+	}else {
+		instance_destroy(oPauseMenu);
+	}
+}
+
+
+//pause self
+if screen_pause() {exit;};
 
 //Control
 #region
@@ -35,7 +52,14 @@ swapKeyPressed = global.swapKeyPressed;
 
 #endregion
 
-get_damaged(oDamagePlayer,true);
+if get_damaged(oDamagePlayer,true)
+{
+   //screen_pause 
+   create_screen_pause(25);
+   
+   //shake the screen
+   screen_shake(6);
+}
 
 //Animation
 #region
@@ -74,6 +98,9 @@ if shootKey && shootTimer <= 0
 {
 	shootTimer = weapon.cooldown;
 	
+	//screen shake
+	screen_shake(2);
+	
 	
 	var _xOffset = lengthdir_x( weapon.lenght + weaponOffsetDist,aimDir);
 	var _yOffset = lengthdir_y( weapon.lenght + weaponOffsetDist,aimDir);
@@ -93,12 +120,11 @@ if shootKey && shootTimer <= 0
 }
 
 
+
 //death
 if hp <= 0
 {
 	instance_create_depth(0,0,-10000,oGameOverScreen);
-	
-	instance_create_depth(x,y,depth,oSmallBoom);
 	
 	instance_destroy();
 }
