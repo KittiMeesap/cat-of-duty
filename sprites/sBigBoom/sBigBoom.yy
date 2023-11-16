@@ -35,8 +35,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "CatofDessert",
-    "path": "CatofDessert.yyp",
+    "name": "WallObject",
+    "path": "folders/WallObject.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -45,6 +45,7 @@
     {"id":{"name":"sDamagePlayer","path":"sprites/sDamagePlayer/sDamagePlayer.yy",},},
     {"id":{"name":"sPlayerRight","path":"sprites/sPlayerRight/sPlayerRight.yy",},},
     {"id":{"name":"oWeaponsPickup","path":"objects/oWeaponsPickup/oWeaponsPickup.yy",},},
+    {"id":{"name":"oScreenPause","path":"objects/oScreenPause/oScreenPause.yy",},},
     {"id":{"name":"oDamageAll","path":"objects/oDamageAll/oDamageAll.yy",},},
     {"id":{"name":"oBigBoom","path":"objects/oBigBoom/oBigBoom.yy",},},
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "CatofDessert",
-    "path": "CatofDessert.yyp",
+    "name": "WallObject",
+    "path": "folders/WallObject.yy",
   },
   "parentObjectId": null,
   "persistent": false,

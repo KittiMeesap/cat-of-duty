@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "CatofDessert",
-    "path": "CatofDessert.yyp",
+    "name": "GameControl",
+    "path": "folders/GameControl.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

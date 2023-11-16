@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "CatofDessert",
-    "path": "CatofDessert.yyp",
+    "name": "Enemies",
+    "path": "folders/Enemies.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
