@@ -73,6 +73,7 @@
     {"name":"sAR","order":6,"path":"sprites/sAR/sAR.yy",},
     {"name":"sShotgun","order":7,"path":"sprites/sShotgun/sShotgun.yy",},
     {"name":"rmInitialize","order":1,"path":"rooms/rmInitialize/rmInitialize.yy",},
+    {"name":"oScreenPauseTimed","order":9,"path":"objects/oScreenPauseTimed/oScreenPauseTimed.yy",},
     {"name":"oHUB","order":5,"path":"objects/oHUB/oHUB.yy",},
   ],
 }

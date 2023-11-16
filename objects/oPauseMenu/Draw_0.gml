@@ -13,7 +13,7 @@ draw_set_alpha(1);
 draw_set_font(fAI);
 
 //"paused"
-draw_text_transformed(_camX + _camW/2, _camY + _camH/2 , "-Paused-",7,7,0);
+draw_text_transformed(_camX + _camW/2, _camY + _camH/2 , "-Paused-",3,3,0);
 
 
 //reset draw settings

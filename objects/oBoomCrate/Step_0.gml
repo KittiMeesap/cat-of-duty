@@ -13,5 +13,8 @@ if hp <= 0
 		image_yscale = 1.5;
 	}
 	
+	//screen pause
+	instance_create_depth(0, 0, 0, oScreenPauseTimed);
+	
 	instance_destroy();
 }

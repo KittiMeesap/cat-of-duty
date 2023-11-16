@@ -96,6 +96,7 @@
     {"id":{"name":"sAR","path":"sprites/sAR/sAR.yy",},},
     {"id":{"name":"sShotgun","path":"sprites/sShotgun/sShotgun.yy",},},
     {"id":{"name":"rmInitialize","path":"rooms/rmInitialize/rmInitialize.yy",},},
+    {"id":{"name":"oScreenPauseTimed","path":"objects/oScreenPauseTimed/oScreenPauseTimed.yy",},},
     {"id":{"name":"oHUB","path":"objects/oHUB/oHUB.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
