@@ -6,12 +6,10 @@ get_damaged(oDamageEnemy);
 		global.enemyKIllCount++;
 		
 		
-		if global.enemyKIllCount mod 30 == 0
+		if global.enemyKIllCount mod 30 ==0
 		{
 			instance_create_depth(x,y,depth,oHeart);
 		}
-		
-		instance_create_depth(x,y,depth,oSmallBoom);
 		
 		instance_destroy();
 	}
