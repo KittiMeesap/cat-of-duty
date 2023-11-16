@@ -59,6 +59,7 @@
     {"id":{"name":"sTilesStur","path":"sprites/sTilesStur/sTilesStur.yy",},},
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
+    {"id":{"name":"oPauseMenu","path":"objects/oPauseMenu/oPauseMenu.yy",},},
     {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"tilesWall","path":"tilesets/tilesWall/tilesWall.yy",},},
     {"id":{"name":"oBoomCrate","path":"objects/oBoomCrate/oBoomCrate.yy",},},
