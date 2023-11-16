@@ -126,5 +126,7 @@ if hp <= 0
 {
 	instance_create_depth(0,0,-10000,oGameOverScreen);
 	
+	create_animated_vfx(sSmallBoom,x,y,depth);
+	
 	instance_destroy();
 }

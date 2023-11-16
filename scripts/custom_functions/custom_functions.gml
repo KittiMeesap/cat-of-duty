@@ -49,6 +49,13 @@ function screen_shake(_amont = 4 )
 		yShakeAmont = _amont;
 	}
 }
+function create_animated_vfx(_sprite,_x,_y,_depth)
+{
+	with(instance_create_depth(_x,_y,_depth,oAnimatedVFX))
+	{
+		sprite_index = _sprite;
+	}
+}
 
 function get_damaged_create(_hp = 10, _iframes = false)
 {

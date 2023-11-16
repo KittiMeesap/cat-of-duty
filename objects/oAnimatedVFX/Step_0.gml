@@ -1,1 +1,1 @@
-//screen_pause();
+screen_pause();
