@@ -14,7 +14,10 @@ if hp <= 0
 	}
 	
 	//screen pause
-	instance_create_depth(0, 0, 0, oScreenPauseTimed);
+    create_screen_pause();
+	
+	//screen shake
+	screen_shake(8);
 	
 	instance_destroy();
 }

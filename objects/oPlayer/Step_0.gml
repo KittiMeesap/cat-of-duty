@@ -52,7 +52,14 @@ if screen_pause() {exit;};
 
 #endregion
 
-get_damaged(oDamagePlayer,true);
+if get_damaged(oDamagePlayer,true)
+{
+   //screen_pause 
+   create_screen_pause(25);
+   
+   //shake the screen
+   screen_shake(6);
+}
 
 //Animation
 #region
@@ -91,6 +98,9 @@ if shootKey && shootTimer <= 0
 {
 	shootTimer = weapon.cooldown;
 	
+	//screen shake
+	screen_shake(2);
+	
 	
 	var _xOffset = lengthdir_x( weapon.lenght + weaponOffsetDist,aimDir);
 	var _yOffset = lengthdir_y( weapon.lenght + weaponOffsetDist,aimDir);
@@ -108,6 +118,7 @@ if shootKey && shootTimer <= 0
 		}
 	}
 }
+
 
 
 //death

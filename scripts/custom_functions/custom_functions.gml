@@ -33,6 +33,22 @@ function screen_pause()
     } 
 	
   }
+function create_screen_pause(_time = 3)
+{
+  	with( instance_create_depth(0, 0, 0, oScreenPauseTimed ) )
+	{
+	  timer = _time; 
+	}
+  
+}
+function screen_shake(_amont = 4 )
+{
+    with(oCamera)
+	{
+	    xShakeAmont = _amont;
+		yShakeAmont = _amont;
+	}
+}
 
 function get_damaged_create(_hp = 10, _iframes = false)
 {
@@ -75,7 +91,8 @@ function get_damaged( _damageObj, _iframes = false)
 		
 		hp = clamp(hp,0,maxHp);
 		
-		exit;
+		//exit by returning the function false
+		return false;
 	}
 	
 	if _iframes == true
@@ -83,7 +100,7 @@ function get_damaged( _damageObj, _iframes = false)
 		image_alpha = 1;
 	}
 	
-	
+	    var _hitConfirm = false;
 		if place_meeting(x,y,_damageObj) || (_damageObj != oDamageParent && place_meeting(x,y,oDamageAll))
 		{
 			var _instList = ds_list_create();
@@ -141,4 +158,7 @@ function get_damaged( _damageObj, _iframes = false)
 		}
 		
 		hp = clamp(hp,0,maxHp);
+		
+		//return hit confinrm variable value
+		return _hitConfirm;
 }
