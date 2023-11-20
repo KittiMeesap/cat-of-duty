@@ -13,17 +13,21 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28c43bb8-6939-4ff7-b3f7-992391ad47b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23065eb7-9555-4f22-991d-fc010bc431f2",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 453,
+<<<<<<< HEAD
+  "height": 49,
+=======
+  "height": 64,
+>>>>>>> 40423a41b08d2d1be795745243b44812aa147118
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f6a8f80d-3d7f-4597-87de-4aeb238f22e8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"56a6c73d-8179-4b46-a4ba-41133fd10997","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "Player",
     "path": "folders/Player.yy",
@@ -54,13 +58,18 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28c43bb8-6939-4ff7-b3f7-992391ad47b5","path":"sprites/sHeart/sHeart.yy",},},},"Disabled":false,"id":"ab5df987-66a4-4d03-93ed-a4979a79f8c5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23065eb7-9555-4f22-991d-fc010bc431f2","path":"sprites/sHeart/sHeart.yy",},},},"Disabled":false,"id":"5de00f01-4130-4829-aa0a-128445ba33cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 293,
-    "yorigin": 453,
+<<<<<<< HEAD
+    "xorigin": 48,
+    "yorigin": 49,
+=======
+    "xorigin": 31,
+    "yorigin": 40,
+>>>>>>> 40423a41b08d2d1be795745243b44812aa147118
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +79,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 586,
+  "width": 64,
 }
