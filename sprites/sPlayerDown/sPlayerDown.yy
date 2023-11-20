@@ -5,7 +5,7 @@
   "bbox_bottom": 20,
   "bbox_left": 0,
   "bbox_right": 15,
-  "bbox_top": 0,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d5e1e8e2-0ff5-46f7-b2f3-3c6a30eb8bb4",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b4f19400-57f6-432f-8397-00f868c06066",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f84590e-c8d8-4b4a-b8e0-25c44d4657b6",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -24,7 +24,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4a925abe-c894-4a96-9fd8-04fc4397ed8f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Player",
     "path": "folders/Player.yy",
@@ -56,13 +56,13 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d5e1e8e2-0ff5-46f7-b2f3-3c6a30eb8bb4","path":"sprites/sPlayerDown/sPlayerDown.yy",},},},"Disabled":false,"id":"7f030200-d299-427f-945b-90114288fd7a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b4f19400-57f6-432f-8397-00f868c06066","path":"sprites/sPlayerDown/sPlayerDown.yy",},},},"Disabled":false,"id":"58f6f16d-955a-426a-8861-85437af191d6","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2f84590e-c8d8-4b4a-b8e0-25c44d4657b6","path":"sprites/sPlayerDown/sPlayerDown.yy",},},},"Disabled":false,"id":"993e567d-c85f-440a-bac0-2bb4bdc93202","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 8,
-    "yorigin": 10,
+    "xorigin": 11,
+    "yorigin": 14,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
