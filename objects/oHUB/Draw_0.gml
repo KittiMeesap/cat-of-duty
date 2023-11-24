@@ -31,4 +31,4 @@ draw_set_font(fAI);
 
 draw_text(_ecHudX + 22,_echudY + 5,string(global.enemyKIllCount));
 
-draw_text(_ecHudX + 44 , _echudY + 5, "/" + string(global.enemyRoomMax));
+//draw_text(_ecHudX + 44 , _echudY + 5, "/" + string(global.enemyRoomMax));
