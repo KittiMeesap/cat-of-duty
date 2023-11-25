@@ -14,6 +14,9 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5e9c8368-dead-4a3e-99b7-799c6e5a84bb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f156d6c4-1693-4f55-8e4d-ceee3df37471",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d45d3263-5530-4e58-96c5-b36d50bb86a5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7a7b7c10-5991-4282-bee4-916b8a3dcfba",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -43,11 +46,11 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
@@ -55,6 +58,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5e9c8368-dead-4a3e-99b7-799c6e5a84bb","path":"sprites/sPlantPot/sPlantPot.yy",},},},"Disabled":false,"id":"1414b929-0999-48a3-9b51-aab052e2c4f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f156d6c4-1693-4f55-8e4d-ceee3df37471","path":"sprites/sPlantPot/sPlantPot.yy",},},},"Disabled":false,"id":"7efcc8f5-d0b4-45bd-acce-65d615df782e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d45d3263-5530-4e58-96c5-b36d50bb86a5","path":"sprites/sPlantPot/sPlantPot.yy",},},},"Disabled":false,"id":"8404cf29-4a23-46fd-8c63-49c79e8eebfb","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7a7b7c10-5991-4282-bee4-916b8a3dcfba","path":"sprites/sPlantPot/sPlantPot.yy",},},},"Disabled":false,"id":"0c3264bf-d096-469d-9772-0de9671ee9e6","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
