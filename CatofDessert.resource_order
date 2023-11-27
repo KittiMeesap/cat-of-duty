@@ -25,6 +25,7 @@
     {"name":"sShootFlash","order":10,"path":"sprites/sShootFlash/sShootFlash.yy",},
     {"name":"sEnemyHealth","order":12,"path":"sprites/sEnemyHealth/sEnemyHealth.yy",},
     {"name":"sDamagePlayer","order":9,"path":"sprites/sDamagePlayer/sDamagePlayer.yy",},
+    {"name":"sWallpaper","order":12,"path":"sprites/sWallpaper/sWallpaper.yy",},
     {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
     {"name":"oWeaponsPickup","order":20,"path":"objects/oWeaponsPickup/oWeaponsPickup.yy",},
     {"name":"oScreenPause","order":7,"path":"objects/oScreenPause/oScreenPause.yy",},
